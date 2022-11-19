@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3D5BD52D292926C800381DD2 /* USER_DATA.json in Resources */ = {isa = PBXBuildFile; fileRef = 3D5BD52C292926C800381DD2 /* USER_DATA.json */; };
+		3D5BD53029293D9800381DD2 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 3D5BD52F29293D9800381DD2 /* Alamofire */; };
+		3D5BD53729294BA600381DD2 /* GoogleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5BD53629294BA600381DD2 /* GoogleViewController.swift */; };
 		3D86077527E5770B00A508F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D86077427E5770B00A508F8 /* AppDelegate.swift */; };
 		3D86077727E5770B00A508F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D86077627E5770B00A508F8 /* SceneDelegate.swift */; };
 		3D86077927E5770B00A508F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D86077827E5770B00A508F8 /* ViewController.swift */; };
@@ -23,10 +25,15 @@
 		3D86079E27E659A900A508F8 /* NotoSansKR-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3D86079727E659A900A508F8 /* NotoSansKR-Regular.otf */; };
 		3D8607A027E65BBE00A508F8 /* DancingScript-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D86079F27E65BBE00A508F8 /* DancingScript-VariableFont_wght.ttf */; };
 		3D8607A227E663A700A508F8 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8607A127E663A700A508F8 /* Utils.swift */; };
+		3DC7A4D3292955600054BA3E /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 3DC7A4D2292955600054BA3E /* GoogleSignIn */; };
+		3DC7A4D5292955600054BA3E /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3DC7A4D4292955600054BA3E /* GoogleSignInSwift */; };
+		3DC7A4D729295E0E0054BA3E /* AppleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7A4D629295E0E0054BA3E /* AppleViewController.swift */; };
+		3DC7A4DB29295E5E0054BA3E /* AuthenticationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC7A4DA29295E5E0054BA3E /* AuthenticationServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3D5BD52C292926C800381DD2 /* USER_DATA.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = USER_DATA.json; sourceTree = "<group>"; };
+		3D5BD53629294BA600381DD2 /* GoogleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleViewController.swift; sourceTree = "<group>"; };
 		3D86077127E5770B00A508F8 /* LoginApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D86077427E5770B00A508F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D86077627E5770B00A508F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,6 +51,9 @@
 		3D86079727E659A900A508F8 /* NotoSansKR-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Regular.otf"; sourceTree = "<group>"; };
 		3D86079F27E65BBE00A508F8 /* DancingScript-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DancingScript-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		3D8607A127E663A700A508F8 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		3DC7A4D629295E0E0054BA3E /* AppleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleViewController.swift; sourceTree = "<group>"; };
+		3DC7A4D829295E320054BA3E /* LoginApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LoginApp.entitlements; sourceTree = "<group>"; };
+		3DC7A4DA29295E5E0054BA3E /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +61,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DC7A4DB29295E5E0054BA3E /* AuthenticationServices.framework in Frameworks */,
+				3DC7A4D5292955600054BA3E /* GoogleSignInSwift in Frameworks */,
+				3D5BD53029293D9800381DD2 /* Alamofire in Frameworks */,
+				3DC7A4D3292955600054BA3E /* GoogleSignIn in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +76,7 @@
 			children = (
 				3D86077327E5770B00A508F8 /* LoginApp */,
 				3D86077227E5770B00A508F8 /* Products */,
+				3DC7A4D929295E5D0054BA3E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,6 +91,8 @@
 		3D86077327E5770B00A508F8 /* LoginApp */ = {
 			isa = PBXGroup;
 			children = (
+				3DC7A4D829295E320054BA3E /* LoginApp.entitlements */,
+				3D5BD53629294BA600381DD2 /* GoogleViewController.swift */,
 				3D5BD52C292926C800381DD2 /* USER_DATA.json */,
 				3D86079027E659A900A508F8 /* Noto_Sans_KR */,
 				3D86078E27E6572500A508F8 /* PaletteMosaic-Regular.ttf */,
@@ -88,6 +105,7 @@
 				3D86077F27E5770D00A508F8 /* LaunchScreen.storyboard */,
 				3D86078227E5770D00A508F8 /* Info.plist */,
 				3D8607A127E663A700A508F8 /* Utils.swift */,
+				3DC7A4D629295E0E0054BA3E /* AppleViewController.swift */,
 			);
 			path = LoginApp;
 			sourceTree = "<group>";
@@ -103,6 +121,14 @@
 				3D86079727E659A900A508F8 /* NotoSansKR-Regular.otf */,
 			);
 			path = Noto_Sans_KR;
+			sourceTree = "<group>";
+		};
+		3DC7A4D929295E5D0054BA3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DC7A4DA29295E5E0054BA3E /* AuthenticationServices.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,6 +147,11 @@
 			dependencies = (
 			);
 			name = LoginApp;
+			packageProductDependencies = (
+				3D5BD52F29293D9800381DD2 /* Alamofire */,
+				3DC7A4D2292955600054BA3E /* GoogleSignIn */,
+				3DC7A4D4292955600054BA3E /* GoogleSignInSwift */,
+			);
 			productName = LoginApp;
 			productReference = 3D86077127E5770B00A508F8 /* LoginApp.app */;
 			productType = "com.apple.product-type.application";
@@ -149,6 +180,10 @@
 				Base,
 			);
 			mainGroup = 3D86076827E5770B00A508F8;
+			packageReferences = (
+				3D5BD52E29293D9800381DD2 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				3DC7A4D1292955600054BA3E /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
 			productRefGroup = 3D86077227E5770B00A508F8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -189,6 +224,8 @@
 				3D8607A227E663A700A508F8 /* Utils.swift in Sources */,
 				3D86077527E5770B00A508F8 /* AppDelegate.swift in Sources */,
 				3D86077727E5770B00A508F8 /* SceneDelegate.swift in Sources */,
+				3D5BD53729294BA600381DD2 /* GoogleViewController.swift in Sources */,
+				3DC7A4D729295E0E0054BA3E /* AppleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,8 +370,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LoginApp/LoginApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LoginApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -360,8 +399,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LoginApp/LoginApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LoginApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -404,6 +445,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3D5BD52E29293D9800381DD2 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		3DC7A4D1292955600054BA3E /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3D5BD52F29293D9800381DD2 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D5BD52E29293D9800381DD2 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		3DC7A4D2292955600054BA3E /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3DC7A4D1292955600054BA3E /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		3DC7A4D4292955600054BA3E /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3DC7A4D1292955600054BA3E /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3D86076927E5770B00A508F8 /* Project object */;
 }
